@@ -1,6 +1,6 @@
 ![logo](./docs/fastcar-logo.png)
 
-[中文](./README_ZH.md) &nbsp;&nbsp;&nbsp;&nbsp; [English](./README.md)
+[中文](./README.md) &nbsp;&nbsp;&nbsp;&nbsp; [English](./README_EN.md)
 ----
 
 # Fastcar - PHP Long Connection Proxy
