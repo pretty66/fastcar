@@ -45,19 +45,21 @@ Fastcar 提供了多重优势，使其成为 PHP 长连接代理的理想选择�
 
 - **资源优化**：Fastcar本身非常轻量，只占用很少的系统资源，同时通过连接池的复用，降低了服务器和网络资源的消耗。
 
-## 效果对比
+## 性能对比
 分别请求百度翻译api的http和https地址，对比使用fastcar和php直接请求的延迟对比，如下图所示：
 
 ### http请求延迟对比
-直接请求和通过fastcar请求各100次，使用fastcar后，平均延迟降低了约34.8%
+直接请求和通过fastcar请求各100次，使用fastcar后平均延迟降低了约 **34.8%**
 ![http延迟](./docs/http_delay.png)
 
 ### https请求延迟对比
-直接请求和通过fastcar请求各100次，使用fastcar后，平均延迟降低了约48.4%
+直接请求和通过fastcar请求各100次，使用fastcar后平均延迟降低了约 **48.4%**
 ![https延迟](./docs/https_delay.png)
 
-### 总结
-**测试发现，fastcar可以显著降低php程序的网络请求延迟，使请求的延迟趋于更加稳定的状态；在https请求模式下，fastcar的优势更加明显。**
+
+### 使用fastcar可以显著降低php程序的网络请求延迟，使请求的延迟趋于更加稳定的状态；在https请求模式下，fastcar的优势更加明显。
+
+----
 
 ## 快速开始
 ### 部署fastcar
