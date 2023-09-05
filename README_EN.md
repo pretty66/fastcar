@@ -57,6 +57,7 @@ Requests to the Baidu Translate API were made to both HTTP and HTTPS endpoints, 
 100 requests were made directly and through Fastcar. With Fastcar, the average delay decreased by approximately 48.4%.
 ![HTTPS Delay](./docs/https_delay.png)
 
+### Summarize
 **Testing has shown that Fastcar can significantly reduce network request latency for PHP programs, making the delay more stable. This advantage is even more pronounced in HTTPS request mode.**
 
 

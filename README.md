@@ -56,6 +56,7 @@ Fastcar 提供了多重优势，使其成为 PHP 长连接代理的理想选择�
 直接请求和通过fastcar请求各100次，使用fastcar后，平均延迟降低了约48.4%
 ![https延迟](./docs/https_delay.png)
 
+### 总结
 **测试发现，fastcar可以显著降低php程序的网络请求延迟，使请求的延迟趋于更加稳定的状态；在https请求模式下，fastcar的优势更加明显。**
 
 ## 快速开始
