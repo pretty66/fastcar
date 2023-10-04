@@ -71,6 +71,7 @@ func init() {
 			panic(fmt.Errorf("invalid proxy url: %w", err))
 		}
 		transport.Proxy = http.ProxyURL(pu)
+		transport.ForceAttemptHTTP2 = false
 	}
 	// ========== revers proxy ============
 	revers = &httputil.ReverseProxy{
